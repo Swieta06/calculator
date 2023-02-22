@@ -1,7 +1,7 @@
 package com.example.calculator
 
 object OperatorType {
-    //tambah
+    //tambahhhhh
     const val TAMBAH=1
     const val KURANG=2
     const val KALI=3
