@@ -1,7 +1,6 @@
-package com.example.calculator
+package com.example.calculator.activity
 
 import android.content.Intent
-import android.os.Binder
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.calculator.databinding.ActivityHomeBinding
@@ -23,6 +22,9 @@ class HomeActivity:AppCompatActivity() {
         }
         binding.btnPersegiPanjang.setOnClickListener {
             intentTo(PersegiPanjangActivity::class.java)
+        }
+        binding.btnSegitiga.setOnClickListener {
+            intentTo(segitigaActivity::class.java)
         }
     }
     private fun intentTo(classs:Class<*>){

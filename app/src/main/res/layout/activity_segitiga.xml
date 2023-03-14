@@ -2,8 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp">
+
     <TextView
         android:id="@+id/txt"
         android:layout_width="match_parent"
@@ -11,18 +12,18 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="152dp"
         android:gravity="center"
-        android:text="Hitung persegi panjang"
+        android:text="Hitung segitiga"
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/input_panjang"
+        android:id="@+id/input_alas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:hint="Input panjang"
+        android:hint="Input alas"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="@+id/txt"
         app:layout_constraintHorizontal_bias="0.214"
@@ -43,12 +44,12 @@
 
 
     <EditText
-        android:id="@+id/input_lebar"
+        android:id="@+id/input_tinggi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:hint="Input lebar"
+        android:hint="Input tinggi"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.727"
@@ -77,18 +78,6 @@
         android:textSize="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt" />
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="12dp"
-    android:id="@+id/tv_history"
-    android:text="40,30,40"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-/>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
